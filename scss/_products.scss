@@ -1,0 +1,45 @@
+// import the _variable.scss as partial
+@import '_variables';
+// import _bootstrap.scss partial file from the node_modules
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+div logo {
+    block-size: $logo-size;
+}
+
+div img {
+    width: 100%;
+    height: 70%;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+    position: relative;
+
+}
+
+li a {
+    font-family: $text;
+    color: $dark-green;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: $menu-margin;
+}
+
+canvas {
+    background: $background-color;
+    width: 100%;
+}
+
+footer {
+    background-color: $dark-green;
+    color: $white;
+    height: $footer-padding;
+}
+
+h1 {
+    text-align: center;
+    color: $dark-green;
+}
