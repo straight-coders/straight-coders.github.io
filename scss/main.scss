@@ -1,1 +1,15 @@
-@import "home"
+@import "home";
+
+$primary-color:#003228;
+$secondary-color:#43B02A;
+
+h5, nav ul li a{
+    color:$primary-color;
+}
+
+.btn-primary, .btn-primary:hover{
+    color:$secondary-color;
+}
+.banner-btn, .banner-btn:hover{
+    background-color: $secondary-color;
+}

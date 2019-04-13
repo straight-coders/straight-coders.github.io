@@ -1,9 +1,11 @@
 {
-  "author": "",
+  "name": "straight-coders.github.io",
+  "version": "1.0.0",
+  "description": "Final Project, design agency for Media and Design",
   "main": "gulpfile.js",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^9.4.10",
+    "autoprefixer": "^9.5.1",
     "browser-sync": "^2.26.3",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.0",
@@ -14,10 +16,16 @@
     "gulp-uglify": "^3.0.2"
   },
   "scripts": {
-    "gulp": "gulp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straight-coders/straight-coders.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/straight-coders/straight-coders.github.io/issues"
+  },
+  "homepage": "https://github.com/straight-coders/straight-coders.github.io#readme"
 }
