@@ -37,9 +37,23 @@ footer {
     background-color: $dark-green;
     color: $white;
     height: $footer-padding;
+    font-size: 1.2em;
+}
+
+h2 {
+    text-align: center;
+    color: $dark-green;
 }
 
 h1 {
-    text-align: center;
-    color: $dark-green;
+    color: $logo-text;
+    size: 1.5rem;
+}
+
+h3 
+{
+color: $dark-green;
+}
+.col-sm-12 {
+
 }
