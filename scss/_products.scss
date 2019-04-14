@@ -3,15 +3,13 @@
 // import _bootstrap.scss partial file from the node_modules
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-div logo {
-    block-size: $logo-size;
+/**  block-size: $logo-size;
 }
 
 div img {
     width: 100%;
     height: 70%;
 }
-
 ul {
     display: inline-flex;
     list-style-type: none;
@@ -39,16 +37,16 @@ footer {
     height: $footer-padding;
     font-size: 1.2em;
 }
-
+**/
 h2 {
     text-align: center;
     color: $dark-green;
 }
 
-h1 {
+/**h1 {
     color: $logo-text;
     size: 1.5rem;
-}
+**/
 
 h3 
 {

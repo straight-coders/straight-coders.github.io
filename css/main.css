@@ -7200,43 +7200,48 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-div logo {
-  block-size: 20px; }
+/**  block-size: $logo-size;
+}
 
 div img {
-  width: 100%;
-  height: 70%; }
-
+    width: 100%;
+    height: 70%;
+}
 ul {
-  display: inline-flex;
-  list-style-type: none;
-  float: right;
-  position: relative; }
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+    position: relative;
+
+}
 
 li a {
-  font-family: roboto;
-  color: #006341;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 15px; }
+    font-family: $text;
+    color: $dark-green;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: $menu-margin;
+}
 
 canvas {
-  background: #E5EFEC;
-  width: 100%; }
+    background: $background-color;
+    width: 100%;
+}
 
 footer {
-  background-color: #006341;
-  color: #ffffff;
-  height: 80px;
-  font-size: 1.2em; }
-
+    background-color: $dark-green;
+    color: $white;
+    height: $footer-padding;
+    font-size: 1.2em;
+}
+**/
 h2 {
   text-align: center;
   color: #006341; }
 
-h1 {
-  color: #3BB54B;
-  size: 1.5rem; }
-
+/**h1 {
+    color: $logo-text;
+    size: 1.5rem;
+**/
 h3 {
   color: #006341; }
