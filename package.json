@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Final Project, design agency for Media and Design",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "tilt.js": "^1.2.1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "browser-sync": "^2.26.3",

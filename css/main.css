@@ -14,7 +14,15 @@ h6 {
   width: 100%; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 1s; }
+
+.banner-content, .card-body {
+  transition: 1s; }
 
 .navbar {
   background: white; }
@@ -84,40 +92,47 @@ img {
 
 /* USE SASS */
 /* option */
-.option-btn {
-  margin: auto;
-  width: 190px;
-  font-weight: 700;
-  font-size: 25px; }
-
 .option-card {
-  background: #99C1B3;
-  height: 400px;
-  max-width: 500px;
-  text-align: center;
-  margin: auto; }
+  height: 250px;
+  margin-bottom: 40px;
+  background: #99C1B3; }
 
-@media (max-width: 1200px) {
-  .option-btn {
-    left: 120px; } }
+.option-p, .icon {
+  width: 50%; }
 
-@media (max-width: 991px) {
-  .option-btn {
-    left: 65px; } }
+.option-btn {
+  top: 190px;
+  left: 20px;
+  position: absolute; }
 
-@media (max-width: 767px) {
-  .option-btn {
-    bottom: 60px;
-    left: 40px; }
-  .icon {
-    margin-top: 0px; }
+.option-btn-two {
+  left: 250px; }
+
+.card-body-two {
+  flex-direction: row-reverse; }
+
+@media (min-width: 767px) {
   .option-card {
-    height: 250px;
-    margin-bottom: 40px; }
-  .option-p, .icon {
-    width: 50%; } }
+    height: 400px;
+    max-width: 500px;
+    text-align: center;
+    margin: auto; }
+  .option-btn {
+    margin: auto;
+    font-size: 25px;
+    position: relative;
+    top: 0;
+    left: 0; } }
+
+@media (min-width: 1200px) {
+  .option-btn {
+    width: 180px; } }
 
 /* about */
+.about {
+  background-color: #E5EFEC;
+  height: 600px; }
+
 .team-img {
   width: 100%; }
 
@@ -125,7 +140,8 @@ img {
   width: 200px; }
 
 .about-text {
-  width: 400px; }
+  width: 400px;
+  margin-top: 20px; }
 
 @media (min-width: 992px) {
   .about-p {
@@ -152,18 +168,29 @@ img {
   overflow: hidden; }
 
 .card {
-  flex-direction: row; }
+  flex-direction: row;
+  overflow: hidden; }
 
 .featured-service-section .card img {
   width: 300px;
-  height: 300px;
   margin-left: -70px; }
 
 .featured_card {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
 
+.featured_card_two {
+  flex-direction: row-reverse; }
+
+.featured-service-section .featured_card_two img {
+  margin-left: 0px;
+  width: 200px; }
+
+.featured_body:hover {
+  transform: scale(1.1);
+  transition: 1s; }
+
 .card-body {
-  padding: 30px 40px; }
+  transition: 1s; }
 
 @media (min-width: 570px) {
   .card-deck {
@@ -175,7 +202,9 @@ img {
   .featured-service-section .card img {
     width: 100%;
     height: auto;
-    margin-left: 0; } }
+    margin-left: 0; }
+  .card-body {
+    padding: 30px 40px; } }
 
 @media (min-width: 768px) {
   .card-deck {
@@ -189,6 +218,10 @@ img {
     height: auto;
     margin-left: 0; } }
 
+footer {
+  height: 100px;
+  background-color: #006341; }
+
 h5, nav ul li a {
   color: #003228; }
 
@@ -197,3 +230,6 @@ h5, nav ul li a {
 
 .banner-btn, .banner-btn:hover {
   background-color: #43B02A; }
+
+.card:hover {
+  cursor: pointer; }
