@@ -3,7 +3,7 @@ body{
 }
 
 h5{
-    // color: $primary-color;
+    color: $primary-color;
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 400;
@@ -38,9 +38,9 @@ img {
 .navbar{
     background: white;
 }
-// nav ul li a{
-//     color:$primary-color;
-// }
+nav ul li a{
+    color:$primary-color;
+}
 .nav-item{
     margin: 0 20px;
 }
@@ -103,15 +103,15 @@ img {
     }
 }
 /* ELEMENTS */
-.btn-primary, .btn-primary:hover{
-// color: #43B02A;
+.option-btn, .option-btn:hover{
+color: $light-green;
 background-color: white;
 border: none;
 }
 
 .banner-btn, .banner-btn:hover{
     color: white;
-    // background-color: #43B02A;
+   background-color: $light-green;
     width: 170px;
     padding: 20px;
     margin-top: 50px;
@@ -315,5 +315,5 @@ width: 180px;
 
 footer {
     height: 100px;
-    background-color: #006341;
+    background-color: $primary;
   }
