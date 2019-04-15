@@ -1,0 +1,109 @@
+// import the _variable.scss as partial
+@import 'variables';
+// import _bootstrap.scss partial file from the node_modules
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+/**  block-size: $logo-size;
+}
+
+div img {
+    width: 100%;
+    height: 70%;
+}
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+    position: relative;
+
+}
+
+li a {
+    font-family: $text;
+    color: $dark-green;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: $menu-margin;
+}
+
+canvas {
+    background: $background-color;
+    width: 100%;
+}
+
+footer {
+    background-color: $dark-green;
+    color: $white;
+    height: $footer-padding;
+    font-size: 1.2em;
+}
+**/
+.header { 
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    margin: 0;
+}
+h2 {
+    font: $text;
+    text-align: center;
+    //position: center;
+    color: $dark-green;
+    font-weight: bold;
+}
+
+.btn {
+    width: 100px;
+    padding: 15px;
+    background-color: #579882;
+    border: radius;
+    position: absolute;
+}
+
+/**h1 {
+    color: $logo-text;
+    size: 1.5rem;
+**/
+
+h3 
+{
+color: $dark-green;
+}
+.col-sm-12 {
+
+}
+@mixin row {
+    background: $background-color;
+      padding: 70px 0;
+        margin: 20px;
+}
+// .photography,
+// .logo-design,
+// .web-development
+// {
+//    background: $background-color;
+//    padding: 70px 0;
+//    margin: 20px;
+// }
+.photography {@include row}
+.web-development {@include row}
+.logo-design {@include row}
+
+.col-sm-6 img {
+    display: flex;
+    position: center;
+    width: 400px;
+    height: 250px;
+    //margin: 15px 20px;
+}
+
+section {
+    height: 360px;
+}
+
+    p {
+        display: flex;
+        font-size: 1.2rem;
+        content: "\A";
+    }
