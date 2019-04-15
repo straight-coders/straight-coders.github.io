@@ -1,20 +1,42 @@
 body{
     overflow-x: hidden;
 }
+
 h5{
-    color: #003228;
+    // color: $primary-color;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h6{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    float: left !important;
+    width: 100%;
 }
 
 img {
     max-width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.banner-content, .card-body{
+    transition: 1s;
 }
 
 .navbar{
     background: white;
 }
-nav ul li a{
-    color:#003228;
-}
+// nav ul li a{
+//     color:$primary-color;
+// }
 .nav-item{
     margin: 0 20px;
 }
@@ -24,8 +46,8 @@ nav ul li a{
     left: 0;
     right: 0;
     width: 100%;
-    height: 250px;
-    top: 455px;
+    // height: 250px;
+    top: 445px;
   }
 
   @media (max-width: 870px){
@@ -61,16 +83,16 @@ nav ul li a{
 }
 /* ELEMENTS */
 .btn-primary, .btn-primary:hover{
-    color: #43B02A;
+// color: #43B02A;
 background-color: white;
 border: none;
 }
 
 .banner-btn, .banner-btn:hover{
     color: white;
-    background-color: #43B02A;
+    // background-color: #43B02A;
     width: 170px;
-    padding: 10px;
+    padding: 20px;
     margin-top: 50px;
 }
 /* SECTION STYLES */
@@ -95,54 +117,67 @@ margin: 100px 0 ;
 }
 /* USE SASS */
 /* option */
-.icon {
-    margin-top: -50px;
+// .icon {
+//     margin-top: -50px;
+// }
+
+
+.option-card{
+    // height: 250px;
+    margin-bottom: 40px;
+    background: #99C1B3;
+
+}
+.option-p, .icon{
+    width: 50%;
 }
 
 .option-btn {
-    position: absolute;
-    bottom: 20px;
-    left: 150px;
-    width: 200px;
+    margin-top: 20px;
 }
+
+// .option-btn{
+//     top: 190px;
+//     left: 20px;
+//     position: absolute;
+// }
+// .option-btn-two {
+//     left: 250px;
+// }
+
+.card-body-two{
+    flex-direction: row-reverse;
+}
+
+  @media (min-width: 767px){
 .option-card {
-    background: #99C1B3;
-    height: 400px;
+    // height: 400px;
     max-width: 500px;
     text-align: center;
     margin: auto;
+  }
+  .option-btn{
+    margin: auto;
+    font-size: 25px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  }
+
+
+@media(min-width:1200px){
+    .option-btn{
+width: 180px;
+      }
 }
-@media (max-width: 1200px){
-    .option-btn {
-        left: 120px;
-    }
-  }
-
-@media (max-width: 991px){
-    .option-btn {
-        left: 65px;
-    }
-  }
-
-  @media (max-width: 767px){
-    .option-btn {
-        bottom: 60px;
-        left: 40px;
-    }
-    .icon {
-        margin-top: 0px;
-    }
-    .option-card{
-        height: 250px;
-        margin-bottom: 40px;
-    }
-    .option-p, .icon{
-        width: 50%;
-    }
-  }
-
 
 /* about */
+.about {
+    background-color: #E5EFEC;
+    height: 600px;
+  }
+
 .team-img{
     width: 100%;
 }
@@ -150,8 +185,9 @@ margin: 100px 0 ;
 .about-title{
     width: 200px;
 }
-.about-text{
+.about-text {
     width: 400px;
+    margin-top: 20px;
 }
 
 @media(min-width:992px){
@@ -177,6 +213,9 @@ margin: 100px 0 ;
 }
 
 /* Featured */
+.featured_title{
+    margin-bottom: 50px;
+}
 .card-deck {
     -ms-flex-direction: column;
     flex-direction: column;
@@ -184,11 +223,35 @@ margin: 100px 0 ;
 }
 .card{
     flex-direction: row;
+    overflow: hidden;
 }
 .featured-service-section .card img {
     width: 300px;
-    height: 300px;
     margin-left: -70px;
+}
+
+.featured_card{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.featured_card_two{
+    flex-direction: row-reverse;
+}
+
+.featured-service-section .featured_card_two img{
+    margin-left: 0px;
+    width: 200px;
+}
+
+.featured_body:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+
+.card-body{
+    transition: 1s;
+
 }
 
 
@@ -205,6 +268,9 @@ margin: 100px 0 ;
         width: 100%;
         height: auto;
         margin-left: 0;
+    }
+    .card-body{
+        padding: 30px 40px;
     }
 
 }
@@ -225,3 +291,8 @@ margin: 100px 0 ;
     }
 
 }
+
+footer {
+    height: 100px;
+    background-color: #006341;
+  }
