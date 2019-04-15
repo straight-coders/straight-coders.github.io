@@ -24,6 +24,10 @@ img {
 .banner-content, .card-body {
   transition: 1s; }
 
+.banner-sub {
+  text-transform: uppercase;
+  font-weight: 400; }
+
 .navbar {
   background: white; }
 
