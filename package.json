@@ -4,6 +4,7 @@
   "description": "Final Project, design agency for Media and Design",
   "main": "gulpfile.js",
   "dependencies": {
+    "jquery-match-height": "^0.7.2",
     "tilt.js": "^1.2.1"
   },
   "devDependencies": {

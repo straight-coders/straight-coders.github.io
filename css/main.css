@@ -36,7 +36,6 @@ img {
   left: 0;
   right: 0;
   width: 100%;
-  height: 250px;
   top: 445px; }
 
 @media (max-width: 870px) {
@@ -93,7 +92,6 @@ img {
 /* USE SASS */
 /* option */
 .option-card {
-  height: 250px;
   margin-bottom: 40px;
   background: #99C1B3; }
 
@@ -101,19 +99,13 @@ img {
   width: 50%; }
 
 .option-btn {
-  top: 190px;
-  left: 20px;
-  position: absolute; }
-
-.option-btn-two {
-  left: 250px; }
+  margin-top: 20px; }
 
 .card-body-two {
   flex-direction: row-reverse; }
 
 @media (min-width: 767px) {
   .option-card {
-    height: 400px;
     max-width: 500px;
     text-align: center;
     margin: auto; }
