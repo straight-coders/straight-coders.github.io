@@ -7256,9 +7256,9 @@ h2 {
 .btn {
   width: 100px;
   padding: 15px;
+  position: relative;
   background-color: #579882;
-  border: radius;
-  position: absolute; }
+  border: radius; }
 
 /**h1 {
     color: $logo-text;
@@ -7290,14 +7290,15 @@ h3 {
   height: 250px;
   margin: 25px 20px; }
 
-dd dt {
-  font-size: 1rem; }
+.col-sm-6, dl {
+  font-size: 1.1rem; }
 
 @media (min-width: 576px) {
   display: block;
   width: 100%;
   float: right;
-  margin: 10px; }
+  margin: 20px;
+  padding: 40px; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

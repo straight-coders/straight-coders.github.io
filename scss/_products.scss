@@ -61,9 +61,9 @@ h2 {
 .btn {
     width: 100px;
     padding: 15px;
-    background-color: $tertiary;
-    border: radius;
-    position: absolute;
+    position: relative;
+background-color: $tertiary;
+border: radius;
 }
 
 /**h1 {
@@ -92,14 +92,15 @@ font-size: 1.5rem;
     width: 400px;
     height: 250px;
     margin: 25px 20px;
-}    
-dd dt {
-    font-size: 1rem;
+}   
+.col-sm-6, dl {
+    font-size: 1.1rem;
 }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {
         display: block;
         width: 100%;
         float: right;
-       margin: 10px;
+       margin: 20px;
+       padding: 40px;
     }
