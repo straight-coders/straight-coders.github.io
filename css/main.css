@@ -7081,7 +7081,7 @@ nav ul li a {
   height: 1032px;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/service-page-banner.png) !important; }
+  background: url(../../img/service-page-banner.png) !important; }
 
 .banner-contact {
   position: relative;
@@ -7350,3 +7350,17 @@ dd dt {
   width: 100%;
   float: right;
   margin: 10px; }
+
+.service-tittle {
+  position: absolute;
+  top: 1029px;
+  left: 50%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #43B02A; }
+
+.card-deck-service {
+  border-radius: 20px; }
+
+.service-padding {
+  padding: 5% !important; }
