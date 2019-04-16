@@ -7391,7 +7391,7 @@ footer {
 container-fluid {
   width: 100%;
   height: 360px;
-  margin: 0; }
+  margin: 0 auto; }
 
 .header {
   width: 100%;
@@ -7465,3 +7465,7 @@ dd dt {
 
 .service-padding {
   padding: 5% !important; }
+
+.service-banner-color {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.08) !important; }
