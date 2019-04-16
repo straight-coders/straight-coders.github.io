@@ -7023,6 +7023,107 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   overflow-x: hidden; }
 
+/* header */
+.res_nav {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  padding: 10px; }
+
+.res_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff; }
+
+.res_nav li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none; }
+
+.res_nav li a:hover,
+.res_nav .menu-btn:hover {
+  background-color: #f4f4f4; }
+
+/* menu */
+.res_nav .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out; }
+
+/* menu icon */
+.res_nav .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none; }
+
+.res_nav .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px; }
+
+.res_nav .menu-icon .navicon:before,
+.res_nav .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%; }
+
+.res_nav .menu-icon .navicon:before {
+  top: 5px; }
+
+.res_nav .menu-icon .navicon:after {
+  top: -5px; }
+
+/* menu btn */
+.res_nav .menu-btn {
+  display: none; }
+
+.res_nav .menu-btn:checked ~ .menu {
+  max-height: 240px; }
+
+.res_nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent; }
+
+.res_nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg); }
+
+.res_nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg); }
+
+.res_nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.res_nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0; }
+
+/* 48em = 768px */
+@media (min-width: 48em) {
+  .res_nav li {
+    float: left; }
+  .res_nav li a {
+    padding: 20px 30px; }
+  .res_nav .menu {
+    clear: none;
+    float: right;
+    max-height: none; }
+  .res_nav .menu-icon {
+    display: none; } }
+
+.logo {
+  width: 300px; }
+
 h5 {
   color: #006341;
   text-transform: uppercase;
