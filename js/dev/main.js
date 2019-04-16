@@ -14799,3 +14799,18 @@ return jQuery;
 }));
 //# sourceMappingURL=bootstrap.js.map
 
+
+$(document).ready(function () {
+  $('.bounce').click(function () {
+    console.log('works')
+    $(this).effect('bounce', {times: 2}, 1000)
+  })
+})
+
+$(function () {
+  $('.option-card').matchHeight()
+})
+
+
+console.log(‘JavaScript file One’);
+console.log(‘JavaScript file Two’);
