@@ -7024,6 +7024,7 @@ body {
   overflow-x: hidden; }
 
 h5 {
+  color: #006341;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 400; }
@@ -7053,24 +7054,18 @@ img {
 .navbar {
   background: white; }
 
+nav ul li a {
+  color: #006341; }
+
 .nav-item {
   margin: 0 20px; }
 
 .divider {
   position: absolute;
-  bottom: 0;
+  bottom: -5vw;
   left: 0;
   right: 0;
-  width: 100%;
-  top: 425px; }
-
-@media (max-width: 870px) {
-  .divider {
-    top: 460px; } }
-
-@media (max-width: 750px) {
-  .divider {
-    top: 475px; } }
+  width: 100%; }
 
 .banner {
   position: relative;
